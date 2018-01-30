@@ -1,11 +1,11 @@
 # Exercise 3: using the pipe operator
 
 # Install (if needed) and load the "dplyr" library
-
+library(dplyr)
 
 # Install (if needed) and load the "fueleconomy" package
-#install.packages('devtools')
-#devtools::install_github("hadley/fueleconomy")
+install.packages('devtools')
+devtools::install_github("hadley/fueleconomy")
 
 
 # Which 2015 Acura model has the best hwy MGH? (Use dplyr, but without method

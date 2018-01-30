@@ -8,9 +8,9 @@ library(fueleconomy)
 
 
 # Install and load the "dplyr" library
-
-
-# Select the different manufacturers (makes) of the cars in this data set. 
+install.packages("dplyr")
+library(dplyr)
+b# Select the different manufacturers (makes) of the cars in this data set. 
 # Save this vector in a variable
 
 
